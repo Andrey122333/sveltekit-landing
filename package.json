@@ -4,9 +4,9 @@
   "private": true,
   "description": "Landing page кафе 'Три Фреймворка' (SvelteKit + Svelte 5)",
   "scripts": {
-    "dev": "vite dev --port 3001",
+    "dev": "vite dev --port 3000",
     "build": "vite build",
-    "preview": "vite preview --port 3001",
+    "preview": "vite preview --port 3000",
     "start": "node -r dotenv/config build/index.js",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
