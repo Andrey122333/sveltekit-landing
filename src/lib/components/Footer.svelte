@@ -19,7 +19,7 @@
   <div class="container">
     <div class="content">
       <div class="section">
-        <h3 class="title">НИР3</h3>
+        <h3 class="title">Лендинг</h3>
         <p class="description">
           Научное исследование производительности SSR-фреймворков
         </p>
@@ -71,12 +71,12 @@
         <h4 class="heading">Контакты</h4>
         <ul class="links">
           <li>
-            <a href="mailto:research@nir3.dev" class="link">
-              research@nir3.dev
+            <a href="mailto:val_andrey@mail.ru" class="link">
+              val_andrey@mail.ru
             </a>
           </li>
           <li>
-            <a href="https://github.com/nir3" target="_blank" rel="noopener noreferrer" class="link">
+            <a href="https://github.com/Andrey122333/ssr-benchmark-infra" target="_blank" rel="noopener noreferrer" class="link">
               GitHub
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3" stroke-linecap="round" stroke-linejoin="round"/>
@@ -89,7 +89,7 @@
 
     <div class="bottom">
       <p class="copyright">
-        © {currentYear} НИР3. Все права защищены.
+        © {currentYear} Лендинг. Все права защищены.
       </p>
       <p class="tech">
         Собрано с помощью SvelteKit 2+
@@ -189,12 +189,12 @@
     .footer {
       padding: var(--spacing-2xl) 0 var(--spacing-md);
     }
-    
+
     .content {
       grid-template-columns: 1fr;
       gap: var(--spacing-xl);
     }
-    
+
     .bottom {
       flex-direction: column;
       text-align: center;

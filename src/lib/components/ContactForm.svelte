@@ -142,7 +142,7 @@
             rows="5"
             aria-invalid={!!errors.message}
             aria-describedby={errors.message ? 'message-error' : undefined}
-          />
+          ></textarea>
           {#if errors.message}
             <span id="message-error" class="error" role="alert">
               {errors.message}
